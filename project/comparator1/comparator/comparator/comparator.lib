@@ -1,0 +1,85 @@
+timestamp=1735322942346
+
+[~A]
+C:/Users/Fadi Bassous/Desktop/BZU/y3s1/Advanced digital/Project/project/comparator1/comparator/src/comparator.v=0*543256*545584
+LastVerilogToplevel=comparator_6bit_tb
+ModifyID=147
+Version=74
+
+[~MFT]
+0=10|0comparator.mgf|545584|374735
+1=12|1comparator.mgf|1745037|1727391
+3=24|3comparator.mgf|827314|815509
+
+[$root]
+A/$root=22|||1*1733545
+BinW64/$root=3*821383
+SLP=3*821498
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|c73a565f2ade592f8ac1c68f484c92165711b5208b04cb4a7fae32cb41a27a60
+
+[B_comparator]
+A/B_comparator=22|../src/comparator.v|90|1*1743885
+BinW64/B_comparator=3*824279
+R=../src/comparator.v|90
+SLP=3*825028
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|393b0465c97d8b772033ebcee738af86970af5b0253e0be3ce56f6b293c606965d5e998ff54b88b32ee5f8c3ae790776
+
+[Comparator]
+A/Comparator=22|../src/comparator.v|3|1*523997
+BinW64/Comparator=3*259465
+R=../src/comparator.v|3
+SLP=3*260673
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|6b0cd2d20a0d9c2598236818b21170af6157a78d2114de38b45ca997313e64c78b70f13497f75927c55f61657d73fa84
+
+[Comparator_tb]
+A/Comparator_tb=22|../src/comparator.v|50|1*526642
+BinW64/Comparator_tb=3*261357
+R=../src/comparator.v|50
+SLP=3*262407
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|7f81aac7bdf77c6464992d0f127d1a0372e6600f1fac0898f401f326c4ff079a2fc03efcbd8d53b018be1c8c3cc632e5
+
+[D_FF]
+A/D_FF=22|../src/comparator.v|77|1*1740998
+BinW64/D_FF=3*823017
+R=../src/comparator.v|77
+SLP=3*823814
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|bb09490a1162773a1fbf8e4e5138b3556b0f3be353aa91eaa33bb330eceb86f8
+
+[comparator_6bit]
+A/comparator_6bit=22|../src/comparator.v|1|1*1733951
+BinW64/comparator_6bit=3*821566
+R=../src/comparator.v|1
+SLP=3*822158
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|eb80e035620ef64f5d30bc6ea85ae843669199fce01c4df6bf73fc97c9c1b30a77d40f4e6f4babb95f1ce88b051f0c9a
+
+[comparator_6bit_tb]
+A/comparator_6bit_tb=22|../src/comparator.v|114|1*1745037
+BinW64/comparator_6bit_tb=3*825394
+R=../src/comparator.v|114
+SLP=3*827314
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|eb80e035620ef64f5d30bc6ea85ae8435c23eb47f175cf091dfa4b9d415d627b1114fab0efccc62d972b338fe3f31057
+
+[mux_2to1]
+A/mux_2to1=22|../src/comparator.v|66|1*1742398
+BinW64/mux_2to1=3*824048
+R=../src/comparator.v|66
+SLP=3*824166
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|72018f5efb72d494f98d165a3b8af1bbebc2582dc002f1bcd1f4a52524577790004721cdb4050a77f34323cd5ee5acca
+
+[tb_comparator_6bit]
+A/tb_comparator_6bit=22|../src/comparator.v|86|1*886946
+BinW64/tb_comparator_6bit=3*403204
+R=../src/comparator.v|86
+SLP=3*404789
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|e0afbc64976809c076e3b8ca9c47c507688756deb76bf994cd881d9a4ed3e63dd6932e27331d20b54ff796b5a4e56812
+
+[~U]
+$root=12|0*541859|
+B_comparator=12|0*542809|
+Comparator=12|0*176421|
+Comparator_tb=12|0*176671||0x10
+D_FF=12|0*542378|
+comparator_6bit=12|0*542089|
+comparator_6bit_tb=12|0*543042||0x10
+mux_2to1=12|0*542609|
+tb_comparator_6bit=12|0*276175||0x10

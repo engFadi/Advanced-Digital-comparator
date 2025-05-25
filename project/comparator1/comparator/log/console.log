@@ -1,0 +1,58 @@
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+asim -O5 +access +r +m+comparator_6bit_tb comparator_6bit_tb
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+alog -O2 -sve -msg 5 -sv2k17 -work comparator $dsn/src/comparator.v
+# Info: VCP2876 comparator.v : (37, 17): Implicit net declaration, symbol zero has not been declared in module comparator_6bit.
+# Info: VCP2876 comparator.v : (38, 16): Implicit net declaration, symbol one has not been declared in module comparator_6bit.
+# Info: VCP2876 comparator.v : (39, 15): Implicit net declaration, symbol K has not been declared in module comparator_6bit.
+# Unit top modules: comparator_6bit_tb.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.5 [s]
+# SLP: Finished : 0.6 [s]
+# SLP: 44 (80.00%) primitives and 11 (20.00%) other processes in SLP
+# SLP: 93 (100.00%) signals in SLP and 0 interface signals
+# ELAB2: Elaboration final pass complete - time: 0.6 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 587 kB (elbread=428 elab2=23 kernel=135 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Fadi Bassous\Desktop\BZU\y3s1\Advanced digital\Project\project\comparator1\comparator\src\wave.asdb
+#  8:09 PM, Friday, December 27, 2024
+#  Simulation has been initialized
+run
+# KERNEL: PASS: Time: 300 | A = 000010, B = 000010, S = 0 | Equal = 1, Less = 0, Greater = 0
+# KERNEL: PASS: Time: 480 | A = 111110, B = 111100, S = 1 | Equal = 0, Less = 0, Greater = 1
+# KERNEL: PASS: Time: 660 | A = 100100, B = 000001, S = 1 | Equal = 0, Less = 1, Greater = 0
+# KERNEL: PASS: Time: 840 | A = 100011, B = 001101, S = 1 | Equal = 0, Less = 1, Greater = 0
+# KERNEL: PASS: Time: 1020 | A = 100101, B = 010010, S = 1 | Equal = 0, Less = 1, Greater = 0
+# KERNEL: PASS: Time: 1200 | A = 001101, B = 110110, S = 1 | Equal = 0, Less = 0, Greater = 1
+# KERNEL: PASS: Time: 1380 | A = 101101, B = 001100, S = 1 | Equal = 0, Less = 1, Greater = 0
+# KERNEL: PASS: Time: 1560 | A = 000110, B = 000101, S = 0 | Equal = 0, Less = 0, Greater = 1
+# KERNEL: PASS: Time: 1740 | A = 100101, B = 110111, S = 0 | Equal = 0, Less = 1, Greater = 0
+# KERNEL: PASS: Time: 1920 | A = 001111, B = 110010, S = 0 | Equal = 0, Less = 1, Greater = 0
+# KERNEL: PASS: Time: 2100 | A = 101000, B = 000101, S = 0 | Equal = 0, Less = 0, Greater = 1
+# KERNEL: PASS: Time: 2280 | A = 111101, B = 101101, S = 1 | Equal = 0, Less = 0, Greater = 1
+# KERNEL: SIMULATION COMPLETE: No errors detected.
+# RUNTIME: Info: RUNTIME_0070 comparator.v (222): $stop called.
+# KERNEL: Time: 2280 ps,  Iteration: 0,  Instance: /comparator_6bit_tb,  Process: @INITIAL#154_2@.
+# KERNEL: Stopped at time 2280 ps + 0.

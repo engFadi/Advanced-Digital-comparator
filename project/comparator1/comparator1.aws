@@ -1,0 +1,13 @@
+[Version]
+Version=15.0
+[Designs]
+comparator=.\comparator\comparator.adf
+[Browser]
+sort=order
+mode=none
+[Order]
+order=1
+[Expand]
+comparator=1
+[Settings]
+Active=comparator
